@@ -43,6 +43,8 @@
             </tr>
         </table>
     </main>
-    <footer>2023 Cafe Library Services</footer>
+    <footer>
+        <p>2023 Cafe Library Services</p>
+    </footer>
 </body>
 </html>

@@ -3,16 +3,18 @@ body {
 }
 
 h1 {
-    background-color: aliceblue;
     text-align: center;
+    margin-left: 100px;
 }
 
 .profile {
+    width: 10vw;
+    height: 5vh;
     border: none;
     border-radius: 5px;
     background-color: mintcream;
     vertical-align: middle;
-    margin-top: 1%;
+    margin-bottom: 1%;
     cursor: pointer;
 }
 
@@ -59,8 +61,11 @@ th, td {
     justify-content: center;
     height: 10vh;
     width: 50vw;
+    text-align: center;
 }
 
 footer {
     text-align: center;
+    display: block;
+    opacity: 50%;
 }
