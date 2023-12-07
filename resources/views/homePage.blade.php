@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/homePage.css">
-    <title>Document</title>
+    <title>HomePage</title>
 </head>
 <body>
     <header>
@@ -20,6 +20,9 @@
             </tr>
         </div>
         <table>
+            <th></th>
+            <th>Table</th>
+            <th></th>
             <tr>
                 <td>1</td>
                 <td>2</td>

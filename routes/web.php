@@ -1,8 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\viewReportController;
 use App\Http\Controllers\homePageController;
+use App\Http\Controllers\loginController;
+use App\Http\Controllers\registerController;
+use App\Http\Controllers\viewReportController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +21,7 @@ use App\Http\Controllers\homePageController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/report', [viewReportController::class, 'index'])->name('viewReport');
 Route::get('/home', [homePageController::class, 'home'])->name('homepage');
+Route::get('/login', [loginController::class, 'login'])->name('login');
+Route::get('/register', [registerController::class, 'register'])->name('register');
+Route::get('/report', [viewReportController::class, 'index'])->name('viewReport');

@@ -1,25 +1,35 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palegreen;
+}
+
+header {
+    background-color: white;
 }
 
 h1 {
-    background-color:green;
-    color: white;
-    margin: 0;
+    margin-left: 100px;
     text-align: center;
 }
 
-.p {
+p {
     text-align: center;
+    opacity: 50%;
 }
 
 button {
+    width: 10vw;
+    height: 5vh;
     border: none;
     border-radius: 5px;
-    background-color: mintcream;
+    background-color: whitesmoke;
     vertical-align: middle;
-    margin-top: 1%;
+    margin-bottom: 1%;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgrey;
 }
 
 .container {
@@ -35,4 +45,6 @@ button {
 
 footer {
     text-align: center;
+    display: block;
+    opacity: 50%;
 }

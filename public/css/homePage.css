@@ -1,5 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palegreen;
+}
+
+header {
+    background-color: white;
 }
 
 h1 {
@@ -12,7 +17,7 @@ h1 {
     height: 5vh;
     border: none;
     border-radius: 5px;
-    background-color: mintcream;
+    background-color: whitesmoke;
     vertical-align: middle;
     margin-bottom: 1%;
     cursor: pointer;
@@ -39,6 +44,7 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: whitesmoke;
 }
 
 .profile:hover, .libBtn:hover, .cafeBtn:hover, .repBtn:hover, .btn:hover {
@@ -46,22 +52,34 @@ main {
 }
 
 table {
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50vh;
     width: 95vw;
+    background-color: lightgreen;
+    table-layout: center;
+    border-collapse: collapse;
 }
 
-th, td {
-    border: 1px solid black;
+th {
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.1) ;
     display: inline-flexbox;
     align-items: center;
     justify-content: center;
     height: 10vh;
     width: 50vw;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 footer {
