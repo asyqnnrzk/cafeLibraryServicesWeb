@@ -1,3 +1,7 @@
+html {
+    min-height: 100%;
+}
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: palegreen;
@@ -47,4 +51,6 @@ footer {
     text-align: center;
     display: block;
     opacity: 50%;
+    position: absolute;
+    bottom: 0;
 }
