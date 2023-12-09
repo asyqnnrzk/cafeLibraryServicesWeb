@@ -4,8 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homePageController;
 use App\Http\Controllers\loginController;
 use App\Http\Controllers\registerController;
+use App\Http\Controllers\createUpdateController;
 use App\Http\Controllers\viewReportController;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +24,5 @@ Route::get('/', function () {
 Route::get('/home', [homePageController::class, 'home'])->name('homepage');
 Route::get('/login', [loginController::class, 'login'])->name('login');
 Route::get('/register', [registerController::class, 'register'])->name('register');
+Route::get('/create_update', [createUpdateController::class, 'create_update'])->name('create_update');
 Route::get('/report', [viewReportController::class, 'index'])->name('viewReport');
